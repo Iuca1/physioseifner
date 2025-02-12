@@ -1,0 +1,114 @@
+head{
+  text-align: center;
+  color: white;
+
+}
+
+
+body {
+    background-color: #8f8f8f;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+header {
+  justify-content: space-between;
+
+}
+
+
+.logo {
+    width: 150px;  /* Größe des Logos anpassen */
+    height: auto;  /* Automatische Höhe */
+    display: block;
+    margin: 0 ; /* Zentriert das Logo */
+    padding: 10px 0;
+
+  }
+
+.portraet{
+  width:400px;
+  height.auto;
+
+}
+
+h1 {
+  text-align: center;
+  color: #470000;
+  font-size: 50px;
+
+}
+
+h2 {
+  color: #470000;
+
+}
+
+.oeffnungszeiten-tabelle {
+    width: 10%; /* Breite der Tabelle anpassen */
+    margin: 0 auto; /* Automatisch horizontal zentrieren */
+    border-collapse: collapse;
+}
+
+.oeffnungszeiten-tabelle td {
+    padding: 5px 100px;
+    vertical-align: top;
+    white-space: nowrap;
+    color: white;
+}
+.oeffnungszeiten-tabelle tr {
+    border-bottom: 1px dotted white; /* Gepunktete Linie zwischen Zeilen */
+}
+
+.oeffnungszeiten-tabelle tr:last-child {
+    border-bottom: none; /* Entfernt Linie nach der letzten Zeile */
+}
+p {
+    font-size: 18px;
+    color: white;
+    font-weight: normal;
+    font-family: Arial;
+    margin-bottom:20px;
+}
+
+.container{
+  width:100%;
+  max-width: 1100px;
+  text-align: center;
+  margin:0 auto;
+
+}
+.image-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+
+
+}
+.image-container img{
+  width:30%;
+  max-width:100%;
+  height:auto;
+
+}
+
+.preisliste{
+  width:100%;
+  max-width: 600px;
+  height:auto;
+}
+
+
+@media (max-width: 600px) {
+    .image-container img {
+        width: 100%; /* Bilder nehmen die volle Breite ein */
+    }
+}
+a {
+    color: white;
+}
+
+a:hover {
+    color: #470000;
+}
